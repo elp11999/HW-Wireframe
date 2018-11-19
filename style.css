@@ -36,7 +36,13 @@ body {
   background-color: #777;
   width: 960px;
   font-size: 18px;
+}
+
+.main {  
+  vertical-align: middle;
   text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 header,
@@ -45,7 +51,18 @@ section,
 aside,
 footer {
   background-color: #ebebeb;
-  margin: 5px auto 0 auto;
+}
+
+header,
+nav {
+  margin: 10px auto 0 auto;
+  padding: 20px;
+}
+
+header,
+nav,
+footer {
+  padding: 20px;
 }
 
 h1,
@@ -57,31 +74,24 @@ p {
   text-align: center;
 }
 
-header,
-nav,
-footer {
-  padding: 20px;
-}
-
 section,
 aside {
   float: left;
-  width: 63%;
-  height: 280px;
+  width: 57%;
+  height: 245px;
   padding: 20px;
-  margin: 10px 0 5px 0;
+  margin: 20px 0 20px 0;
 }
 
 aside {
   float: right;
-  width: 35%;
-  margin: 10px 0 5px 0;
+  width: 41%;
 }
 
 article {
   color: #ebebeb;
   background-color: #777;
-  height: 200px;
+  height: 170px;
   padding-top: 20px;
-  margin:  20px auto 0 auto;
+  margin: 20px auto 0 auto;
 }
